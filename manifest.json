@@ -1,0 +1,11 @@
+{
+  "name": "AtCoder Judge Notifier",
+  "version": "0.1",
+  "description": "background page watch and notify judge results",
+  "background_page": "background.html",
+  "permissions": [
+	"notifications",
+  	"http://atcoder.jp",
+	"http://beta.atcoder.jp/"
+  ]
+}
