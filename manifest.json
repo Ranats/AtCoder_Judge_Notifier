@@ -1,11 +1,13 @@
 {
   "name": "AtCoder Judge Notifier",
+  "manifest_version": 2,
   "version": "0.1",
   "description": "background page watch and notify judge results",
-  "background_page": "background.html",
+  "background": {
+    "scripts": ["jquery-3.3.1.js","core.js"]
+  },
   "permissions": [
 	"notifications",
-  	"http://atcoder.jp",
 	"http://beta.atcoder.jp/"
   ]
 }
