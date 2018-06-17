@@ -4,7 +4,7 @@
   "version": "0.1",
   "description": "background page watch and notify judge results",
   "background": {
-    "scripts": ["jquery-3.3.1.js","core.js"]
+    "scripts": ["jquery-3.3.1.js","jquery.xdomainajax.js","core.js"]
   },
   "permissions": [
 	"notifications",

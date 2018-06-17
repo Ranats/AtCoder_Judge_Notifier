@@ -16,7 +16,7 @@ function initialize() {
 
 function check_update() {
     // send request
-    ajax_transport.open("GET", "https://abc099.contest.atcoder.jp/submissions/me", true);
+    ajax_transport.open("GET", "https://beta.atcoder.jp/contests/practice/submissions/me", true);
     ajax_transport.onreadystatechange = process;
     ajax_transport.send();
 
