@@ -3,8 +3,10 @@
 - node.js
 - chromeExtension
 
-- �A�C�R���N���b�N���u��o�v
-	- ����I���v���_�E���C�R�[�h���̓t�H�[�����
-	- ���݊J���Ă���y�[�WURL�����o����w�聨��o
-	- �X�e�[�^�X�Ď�
-	- �ォ�珇�Ɂ�/���̂��̂��Ď��H�i�Ď����ɂ�����x��o���������ꍇ���c?�j
+- アイコンクリック→「提出」
+	- 言語選択プルダウン，コード入力フォームを提示
+	- 現在開いているページURLから提出先を指定→提出
+	- ステータス監視
+	- 上から順に◯/◯のものを監視？（監視中にもう一度提出があった場合等…?）
+
+- Node.jsとChrome拡張機能を使ってリアルタイムで通知を出す - Qiita : https://qiita.com/ykyk1218/items/c8025236badb691183b6
